@@ -10,7 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //basla --      1 ile girilen değer arasında sayı üretilir ve sayı tahmin oyunu başlar.
+            /*
+            Kurallar:
+            0 ile girilen değer arasında random sayı oluşturulur.
+            girilen değer tam sayı değilse oyun hata verir.
+            eğer sayı 1 ise oyun biter.
+            ipucu istemek için 'E' yazabilirsin.
+            sayıyı dogru tahmin edersen oyun kazanırsın ve oyun biter
+            */
 
             Console.WriteLine("!!!  SAYI TAHMİN OYUNU   !!!");
             Console.WriteLine("lütfen 0 ile hangi değerler arasında sayı üretilmesini istediğinizi yazınız:");
